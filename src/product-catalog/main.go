@@ -314,9 +314,3 @@ func (p *productCatalog) checkProductFailure(ctx context.Context, id string) boo
 // 		grpc.WithTransportCredentials(insecure.NewCredentials()),
 // 		grpc.WithStatsHandler(otelgrpc.NewClientHandler()),
 // 	)
-// }
-
-
-
-
-
